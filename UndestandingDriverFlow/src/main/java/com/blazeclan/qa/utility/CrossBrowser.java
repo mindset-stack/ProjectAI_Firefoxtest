@@ -18,9 +18,10 @@ public class CrossBrowser extends CommonFunctions{
 		ChromeOptions options=  new ChromeOptions();
 		options.addArguments("--start-maximized");
 		options.addArguments("--remote-allow-origins=*");
+		//options.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
 		
-	
-		options.addArguments("no-sandbox");
+		System.setProperty("webdriver.http.factory", "jdk-http-client");
+		//options.addArguments("no-sandbox");
 		
 		
 		WebDriverManager.chromedriver().setup();

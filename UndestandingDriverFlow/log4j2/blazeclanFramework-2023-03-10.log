@@ -1,0 +1,34 @@
+[INFO ] 2023-03-10 12:53:15.711 [main] Log - chrome browser selected
+[INFO ] 2023-03-10 12:53:16.218 [main] Log - Opened chrome browser
+[INFO ] 2023-03-10 12:53:16.358 [main] Log - Window is maximized
+[INFO ] 2023-03-10 12:53:25.474 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-03-10 12:53:25.547 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-03-10 12:53:25.723 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2023-03-10 12:53:25.826 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //input[@name='username']]
+[INFO ] 2023-03-10 12:53:26.019 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //input[@name='username']] text
+[INFO ] 2023-03-10 12:53:26.112 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2023-03-10 12:53:26.254 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //input[@name='password']]
+[INFO ] 2023-03-10 12:53:26.358 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //input[@name='password']] text
+[INFO ] 2023-03-10 12:53:26.445 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2023-03-10 12:53:26.524 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2023-03-10 12:53:34.563 [main] Log - LoginPageTest is passed
+[INFO ] 2023-03-10 12:53:34.563 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest 9326fc5e-83f4-45dc-9dc1-3bf3eb865474 []
+[INFO ] 2023-03-10 12:53:34.844 [main] Log - AboutMe Test is starting. 
+[INFO ] 2023-03-10 12:53:39.922 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //span[contains(text(),'My Projects')]]is visible
+[INFO ] 2023-03-10 12:53:40.016 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //span[contains(text(),'My Projects')]]
+[INFO ] 2023-03-10 12:53:40.091 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //li[@class='pro-menu-item']/div/span[@class='pro-item-content']]is visible
+[INFO ] 2023-03-10 12:53:40.191 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //li[@class='pro-menu-item']/div/span[@class='pro-item-content']]
+[INFO ] 2023-03-10 12:53:46.992 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //span[@class='MuiIconButton-label']]is visible
+[INFO ] 2023-03-10 12:53:47.091 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //span[@class='MuiIconButton-label']]
+[INFO ] 2023-03-10 12:53:47.151 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //span[contains(text(),'About Me')]]is visible
+[INFO ] 2023-03-10 12:53:47.359 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //span[contains(text(),'About Me')]]
+[INFO ] 2023-03-10 12:53:50.813 [main] Log - AboutMeTest is passed
+[INFO ] 2023-03-10 12:53:50.813 [main] Log - AboutMe com.blazeclan.qa.test.testng.AboutMeTest f8153146-ee93-4e7d-8bad-979542dfe1ae []
+[INFO ] 2023-03-10 12:53:51.050 [main] Log - Logout Test is starting. 
+[INFO ] 2023-03-10 12:53:51.124 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //div[@class='ij_XRAOXFVqUYY8480uZC']]is visible
+[INFO ] 2023-03-10 12:53:51.196 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //div[@class='ij_XRAOXFVqUYY8480uZC']]
+[INFO ] 2023-03-10 12:53:54.269 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (fcb8aaf87b65c77d4f114b69c31b75e4)] -> xpath: //a[normalize-space()='Log Out']]is visible
+[INFO ] 2023-03-10 12:53:56.468 [main] Log - Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Log Out']'
+[INFO ] 2023-03-10 12:53:56.471 [main] Log - LogoutTest is passed
+[INFO ] 2023-03-10 12:53:56.471 [main] Log - Logout com.blazeclan.qa.test.testng.LogoutTest a823862d-8b35-4225-a0f7-b2626040e032 []
+[INFO ] 2023-03-10 12:53:57.266 [main] Log - I am on finish method testng
