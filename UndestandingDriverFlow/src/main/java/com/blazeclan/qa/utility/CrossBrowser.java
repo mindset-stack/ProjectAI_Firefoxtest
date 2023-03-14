@@ -16,8 +16,12 @@ public class CrossBrowser extends CommonFunctions{
 		switch(browser){
 		case"chrome":
 		ChromeOptions options=  new ChromeOptions();
+		options.addArguments("--start-maximized");
+		options.addArguments("--remote-allow-origins=*");
+		
 	
-		options.addArguments("start-maximized");
+		options.addArguments("no-sandbox");
+		
 		
 		WebDriverManager.chromedriver().setup();
        driver = new ChromeDriver(); 
@@ -28,8 +32,11 @@ public class CrossBrowser extends CommonFunctions{
 			
 		Log.info("chrome browser selected");
 		break;
-		default: System.out.println("Please provide browser name");
-	System.setProperty("webdriver.chrome.driver", "D://Latestchromedriverexe//chromedriver.exe");
+	default:
+		System.out.println("Please provide browser name");
+	//System.setProperty("webdriver.chrome.driver", "D://Latestchromedriverexe//chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+		
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

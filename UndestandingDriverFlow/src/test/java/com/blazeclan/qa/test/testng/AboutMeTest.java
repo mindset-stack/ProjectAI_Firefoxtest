@@ -22,13 +22,21 @@ public class AboutMeTest extends BaseTest {
 		 clickElement(aboutmepage.aboutmelink);
 		 Thread.sleep(3000);
 		 
-		// Actions act =new Actions(driver);
-		 //act.dragAndDropBy(aboutmepage.answer, 99, 0).build().perform();
-	 slidingAction(aboutmepage.answer);
+		 Actions act =new Actions(driver);
+		 act.dragAndDropBy(aboutmepage.sentimentfirstanswer, 99, 0).build().perform();
+//	 slidingAction(aboutmepage.sentimentfirstanswer);
+//	 slidingAction(aboutmepage.sentimentsecondanswer);
+//	 slidingAction(aboutmepage.sentimentthirdanswer);
+//	 slidingAction(aboutmepage.sentimentfourthanswer);
+//	 slidingAction(aboutmepage.sentimentfifthanswer);
+//	 slidingAction(aboutmepage.sentimentsixthanswer);
+//	 
 		 
 		 
 		 
-		 clickElement(aboutmepage.comment);
+		// clickElement(aboutmepage.sentimentseventhanswer);
+		// aboutmepage.sentimentseventhanswer.sendKeys("Hi");
+		 
 		 
 		 
 		 

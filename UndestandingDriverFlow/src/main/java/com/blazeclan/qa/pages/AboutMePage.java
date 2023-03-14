@@ -20,11 +20,32 @@ public class AboutMePage {
 	
 	
 	
-	@FindBy(xpath="//*[@class='_2kiHKNbvQmG4zgHt7oz96W EIwcdJQ929umkl9iYDdm9']")
-	public WebElement answer;
+	//@FindBy(xpath="//*[@class='_2kiHKNbvQmG4zgHt7oz96W EIwcdJQ929umkl9iYDdm9']")
+	@FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]")
+	public WebElement sentimentfirstanswer;
 	
-	@FindBy(xpath="//a[@class='_1hylHuyaZ6-giDZ1GsftK3']")
-	public WebElement comment;
+	 @FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]")
+	 public WebElement sentimentsecondanswer;
+	 
+	 
+	 
+	 @FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[3]")
+	 public WebElement sentimentthirdanswer;
+	 
+	 @FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[3]")
+	 public WebElement sentimentfourthanswer;
+	 
+	 @FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[3]")
+	 public WebElement sentimentfifthanswer;
+	 
+	 @FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[3]")
+	 public WebElement sentimentsixthanswer;
+	 
+	 @FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/textarea[1]")
+	 public WebElement sentimentseventhanswer;
+	 
+//	@FindBy(xpath="//a[@class='_1hylHuyaZ6-giDZ1GsftK3']")
+//	public WebElement comment;
 	
 	public AboutMePage(WebDriver driver) {
 		
