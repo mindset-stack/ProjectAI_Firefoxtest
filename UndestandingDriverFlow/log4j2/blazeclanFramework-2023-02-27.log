@@ -1,0 +1,46 @@
+[INFO ] 2023-02-27 12:06:12.242 [main] Log - chrome browser selected
+[INFO ] 2023-02-27 12:06:12.591 [main] Log - Opened chrome browser
+[INFO ] 2023-02-27 12:06:12.731 [main] Log - Window is maximized
+[INFO ] 2023-02-27 12:06:23.007 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-02-27 12:06:23.041 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-02-27 12:06:23.209 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2023-02-27 12:06:23.322 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //input[@name='username']]
+[INFO ] 2023-02-27 12:06:23.556 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //input[@name='username']] text
+[INFO ] 2023-02-27 12:06:23.651 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2023-02-27 12:06:23.729 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //input[@name='password']]
+[INFO ] 2023-02-27 12:06:23.839 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //input[@name='password']] text
+[INFO ] 2023-02-27 12:06:23.907 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2023-02-27 12:06:23.997 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2023-02-27 12:06:32.026 [main] Log - LoginPageTest is passed
+[INFO ] 2023-02-27 12:06:32.032 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest 431cd250-8f43-4fd0-aa1e-1c14f47f5c0a []
+[INFO ] 2023-02-27 12:06:32.364 [main] Log - AboutMe Test is starting. 
+[INFO ] 2023-02-27 12:06:37.470 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //span[contains(text(),'My Projects')]]is visible
+[INFO ] 2023-02-27 12:06:37.570 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //span[contains(text(),'My Projects')]]
+[INFO ] 2023-02-27 12:06:38.193 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //li[@class='pro-menu-item']/div/span[@class='pro-item-content']]is visible
+[INFO ] 2023-02-27 12:06:38.297 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //li[@class='pro-menu-item']/div/span[@class='pro-item-content']]
+[INFO ] 2023-02-27 12:06:44.246 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //span[@class='MuiIconButton-label']]is visible
+[INFO ] 2023-02-27 12:06:44.337 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //span[@class='MuiIconButton-label']]
+[INFO ] 2023-02-27 12:06:44.402 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //span[contains(text(),'About Me')]]is visible
+[INFO ] 2023-02-27 12:06:44.786 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //span[contains(text(),'About Me')]]
+[INFO ] 2023-02-27 12:06:47.867 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]]is visible
+[INFO ] 2023-02-27 12:06:48.325 [main] Log - slider action performed on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]]
+[INFO ] 2023-02-27 12:06:48.381 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]]is visible
+[INFO ] 2023-02-27 12:06:52.219 [main] Log - slider action performed on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[3]]
+[INFO ] 2023-02-27 12:06:52.296 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[3]]is visible
+[INFO ] 2023-02-27 12:06:52.750 [main] Log - slider action performed on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[3]]
+[INFO ] 2023-02-27 12:06:52.809 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[3]]is visible
+[INFO ] 2023-02-27 12:06:58.810 [main] Log - slider action performed on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[3]]
+[INFO ] 2023-02-27 12:06:58.879 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[3]]is visible
+[INFO ] 2023-02-27 12:06:59.349 [main] Log - slider action performed on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/div[1]/div[3]]
+[INFO ] 2023-02-27 12:06:59.420 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[3]]is visible
+[INFO ] 2023-02-27 12:07:22.360 [main] Log - slider action performed on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[3]]
+[INFO ] 2023-02-27 12:07:22.417 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/textarea[1]]is visible
+[ERROR] 2023-02-27 12:07:23.504 [main] Log - AboutMeTest is failed
+[INFO ] 2023-02-27 12:07:23.728 [main] Log - Logout Test is starting. 
+[INFO ] 2023-02-27 12:07:23.804 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //div[@class='ij_XRAOXFVqUYY8480uZC']]is visible
+[INFO ] 2023-02-27 12:07:23.909 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //div[@class='ij_XRAOXFVqUYY8480uZC']]
+[INFO ] 2023-02-27 12:07:26.963 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e70616019efdee5cc8bd49629b9161db)] -> xpath: //a[normalize-space()='Log Out']]is visible
+[INFO ] 2023-02-27 12:07:28.691 [main] Log - Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Log Out']'
+[INFO ] 2023-02-27 12:07:28.693 [main] Log - LogoutTest is passed
+[INFO ] 2023-02-27 12:07:28.693 [main] Log - Logout com.blazeclan.qa.test.testng.LogoutTest 44d119fa-03ca-40a8-ba52-c6acf3e9d164 []
+[INFO ] 2023-02-27 12:07:30.302 [main] Log - I am on finish method testng
